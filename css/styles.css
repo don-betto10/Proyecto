@@ -1,7 +1,56 @@
 .logo_img {
-    width: 75px;
+    width: 60px;
 }
 
 .nav-link {
     color: #949494;
 }
+
+.nav-link:hover, .dropdown .nav-link.show{
+    color: black;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+video {
+    width: 100%;
+}
+
+.contenido {
+    bottom: 20%;
+    max-width: 400px;
+}
+
+.banner {
+    height: 700px;
+    overflow: hidden;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.mostrar-mobile {
+    display: none;
+}
+
+.ocultar-mobile {
+    display: block;
+}
+
+
+
+@media (max-width: 990px) {
+    .ocultar-mobile {
+        display: none;
+    }
+
+    .mostrar-mobile {
+        display: block;
+    }
+}
+
