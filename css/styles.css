@@ -51,7 +51,7 @@ video {
     border: none;
     border-radius: 0;
     height: 100%;
-    
+
 }
 
 .card-img {
@@ -95,6 +95,11 @@ video {
     background: #000;
 }
 
+footer {
+    margin-bottom: 20px;
+   
+}
+
 .foot-menu {
     padding: 10px 0 0 5px ;
 }
@@ -102,8 +107,23 @@ video {
 .foot-text {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(132, 132, 132);
+}
+
+.logo-foot {
+    padding-top: 30px;
+}
+
+.formulario {
+    padding: 5px 30px;
+}
+
+.mapa {
+    width: 300px;
+    height: 200px;
 
 }
+
+
 @media (max-width: 990px) {
     .ocultar-mobile {
         display: none;

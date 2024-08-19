@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </head> 
@@ -139,15 +140,33 @@
     <footer>
         <div class="row">
             <div class="col col-sm-12 col-lg-4 ">
-                <h2 class="foot-menu">Sitemap</h2>
+                <h2 class="foot-menu">Síguenos</h2>
+                <ul>
+                    <li class="logo-foot"><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                    <li class="logo-foot"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="logo-foot"><a href="#"><i class="fa-brands fa-instagram"></i ></a></li>
+                        <!--ICONO WHATSAPP O CHAT DE WHATSAPP-->
+                </ul>
             </div>
             <div class="col col-sm-12 col-lg-4 p-0">
-                <h2 class="foot-menu">Location</h2>
-                <p class="foot-text"><strong>Adress:</strong> 6414 Morgan Ave S., Minneapolis, MN – 55423</p>
+                <h2 class="foot-menu">Nuestras Sedes</h2>
+                <iframe class="mapa"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.689866289955!2d-74.08038382252381!3d4.6492941420959095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b4abdd8d3f3%3A0xd90a6f9db0df8c1e!2sMovistar%20Arena!5e0!3m2!1ses-419!2sco!4v1723592696379!5m2!1ses-419!2sco" >
+
+                </iframe>
             </div>
             <div class="col col-sm-12 col-lg-4 p-0">
-                <h2 class="foot-menu">Sign Up for Our Newsletter</h2>
-                <p class="foot-text">Get the latest company and industry news concerning everything web design, SEO, copywriting and more.</p>
+                <h2 class="foot-menu">Buzón de Sugerencia</h2>
+                <form class="formulario">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@mail.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Déjanos Tu Comentario</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary ">Enviar</button>
+                  </form>
             </div>
         </div>
     </footer>
